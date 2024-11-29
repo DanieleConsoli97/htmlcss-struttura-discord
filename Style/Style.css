@@ -1,0 +1,45 @@
+:root{
+--headercolor:red;
+--colornav:blue;
+.flex{
+    display: flex;}
+}
+header{
+height: 200px;
+background-color: var(--headercolor);
+
+}
+
+
+.just-con-bet{
+    justify-content: space-between;}
+
+    .just-con-aro{
+        justify-content: space-around;}
+    nav{
+height: 150px;
+background-color: var(--colornav);
+flex-basis: 100%;
+
+
+}
+
+figure{
+background-color: black;
+height: 20px;
+}
+
+article{
+background-color: blueviolet;
+height: 60px;
+}
+
+
+div{
+    background-color: rgb(43, 226, 46);
+    height: 250px;
+}
+
+#button1{
+background-color: aliceblue;
+height: 10px;}
