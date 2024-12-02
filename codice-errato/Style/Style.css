@@ -1,0 +1,128 @@
+:root{
+--headercolor:red;
+--colornav:blue;
+
+}
+
+.flex{  
+    display: flex;
+}
+
+header{
+height: 400px;
+background-color: var(--headercolor);
+}
+
+.just-con-bet{
+    justify-content: space-between;}
+
+.just-con-aro{
+        justify-content: space-around;}
+
+nav{
+background-color: var(--colornav);
+flex-basis: 10%;
+align-content: center;
+}
+.al-itm-ce{
+    align-items: center}
+
+header figure{
+background-color: black;
+height: 20px;
+flex-basis:10%;
+}
+
+header article{
+background-color: blueviolet;
+height: 20px;
+flex-basis: 70%;
+}
+
+div{
+    background-color: rgb(43, 226, 46);
+    height: 250px;
+}
+
+
+#button1{
+background-color: aliceblue;
+height: 10px;
+flex-basis:10%;
+
+}
+button{
+width:100% ;
+}
+
+.fle-dir-col{
+
+    flex-direction: column;
+}
+.al-se-cen{
+    align-self:center;
+        
+
+    }
+section{
+
+    height: 50px;
+    flex-basis: 100%;
+    background-color: aqua;
+    margin: 50px 50px;
+
+}
+
+.al-con-cen{
+    
+    align-content:center;}
+
+main{
+
+    margin:0 20% 0 20%;
+    background-color: aquamarine;
+    height: 1000px;
+
+}
+
+main article{
+   
+    flex-basis: 50%;
+}
+
+.yellow{
+    background-color:rgb(255, 255, 0);
+}
+
+ .black {
+        
+        background-color: black;
+ }
+
+.red{
+background-color: red;
+}
+.green{
+background-color: green;
+}
+main figure{
+    width: 100px;
+    flex-basis:50%;
+    }
+ 
+   
+main>div{
+    height:  200px;
+    flex-basis: 100%;
+    background-color: rgb(0, 204, 255);    
+}
+.blue{
+
+    background-color: blue;
+
+}
+footer{
+    height: 200px;
+    background-color: rgb(13, 255, 0);
+    margin:0 20% 0 20%;
+}

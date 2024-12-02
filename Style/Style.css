@@ -1,127 +1,118 @@
-:root{
---headercolor:red;
---colornav:blue;
-
-}
-
-.flex{  
+.flex{
     display: flex;
 }
 
 header{
-height: 400px;
-background-color: var(--headercolor);
-}
 
-.just-con-bet{
-    justify-content: space-between;}
-
-.just-con-aro{
-        justify-content: space-around;}
-
-nav{
-background-color: var(--colornav);
-flex-basis: 10%;
-align-content: center;
-}
-.al-itm-ce{
-    align-items: center}
-
-header figure{
-background-color: black;
-height: 20px;
-flex-basis:10%;
-}
-
-header article{
-background-color: blueviolet;
-height: 20px;
-flex-basis: 70%;
-}
-
-div{
-    background-color: rgb(43, 226, 46);
-    height: 250px;
-}
-
-
-#button1{
-background-color: aliceblue;
-height: 10px;
-flex-basis:10%;
-
-}
-button{
-width:100% ;
-}
-
-.fle-dir-col{
-
-    flex-direction: column;
-}
-.al-se-cen{
-    align-self:center;
-        
-
+    height: 590px;
     }
-section{
+header nav{
 
-    flex-basis: 60%;
-    background-color: aqua;
-    margin: 50px 50px;
+    height: 90px;
+    background-color: red;
+   
+}
+header article{
+
+height:500px;
+background-color: blue;
 
 }
 
-.al-con-cen{
-    
-    align-content:center;}
+.jus-con-ar{
+
+    justify-content: space-around;
+}
+
+.jus-con-ce{
+justify-content: center;
+}
+header nav picture{
+    height: 40px;
+    flex-basis: 10%;
+    background-color: black;
+}
+
+header nav aside{
+    height: 40px;
+    flex-basis: 50%;
+    background-color: blueviolet;
+
+}
+
+
+header nav button{
+    height: 40px;
+    flex-basis: 10%;
+}
+
+.al-it-cen{
+align-items:center ;
+}
+
+header article.flex div {
+height:300px;
+background-color: aqua;
+flex-basis:60% ;
+}
 
 main{
 
-    margin:0 20% 0 20%;
-    background-color: aquamarine;
-    height: 1000px;
+    padding: 0 20% 0 20%;
 
 }
-
-main article{
-   
-    flex-basis: 50%;
+main div{
+background-color: black;
+height: 200px;
+margin: 0 0 10px 0;
 }
 
-.yellow{
-    background-color:rgb(255, 255, 0);
+main div picture{
+
+    background-color: violet;
+    flex-basis: 20%;
+}
+.containertext{
+
+    background-color:darkgreen;
+    flex-basis: 20%;
+}
+.fl-dir-col{
+    flex-direction: column;
 }
 
- .black {
-        
-        background-color: black;
- }
+main div.flex.textimgtop.fl-dir-col picture{
 
-.red{
-background-color: red;
+    background-color: brown;
+   flex-basis: 20%;
 }
-.green{
-background-color: green;
-}
-main figure{
-    width: 100px;
-    flex-basis:50%;
-    }
- 
-   
-main>div{
-    height:  200px;
-    flex-basis: 100%;
-    background-color: rgb(0, 204, 255);    
-}
-.blue{
 
-    background-color: blue;
+main div.flex.textimgtop.fl-dir-col div.containertext{
 
+    background-color: rgb(75, 42, 165);
+    flex-basis: 80%;
+}
+
+main div.flex.textimgtop.fl-dir-col{
+
+    height: 400px;
 }
 footer{
-    height: 200px;
-    background-color: rgb(13, 255, 0);
-    margin:0 20% 0 20%;
+    height: 400px;
+    background-color: gray;
+    padding: 0 10% 0 10%;
+}
+footer div{
+
+    background-color: aqua;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.foodiv{
+    height: 50px;
+    flex-basis: 10%;
+    background-color:chocolate;
+    margin-left: 10px;
+
 }
